@@ -120,7 +120,7 @@ app.get("/product", async (req, res) => {
     }
   } catch (error) {
     console.error("Error fetching data:", error);
-    res.status(500).json({ error: "Failed to fetch data from API" }); // Send error response here
+    res.status(500).json({ error: "Failed to fetch data from API" });
   }
 });
 
