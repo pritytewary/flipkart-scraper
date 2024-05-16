@@ -1,18 +1,18 @@
 
-🛒 README: Flipkart Scraper 🛍️
+## 🛒 README: Flipkart Scraper 🛍️
 
-📋 Overview:
+📋 ##Overview:
 This project is a web scraper built using Node.js and Express.js to extract product information from Flipkart's API. It retrieves details such as product title, price, ratings, offers, and features based on the provided product URL.
 
 🚀 Features:
-# Extracts product details from Flipkart's API.
-# Parses and structures the response to provide essential product information.
-# Handles error cases gracefully and provides meaningful error messages.
-# Configurable to run on any machine with Node.js installed.
+### Extracts product details from Flipkart's API.
+### Parses and structures the response to provide essential product information.
+### Handles error cases gracefully and provides meaningful error messages.
+### Configurable to run on any machine with Node.js installed.
 # Provides JSON response containing product information for easy integration with other applications.
 
 🔧 Setup Instructions:
-# Clone the repository to your local machine:
+## Clone the repository to your local machine:
 
 # bash
 ## git clone https://github.com/your-username/flipkart-scraper.git
@@ -22,17 +22,17 @@ This project is a web scraper built using Node.js and Express.js to extract prod
 ## cd flipkart-scraper
 ## Install dependencies using npm:
 
-# bash
-## npm install
-## Start the server:
+## bash
+### npm install
+### Start the server:
 
-# bash
-## npm start
-## The server will start running on port 3000 by default. You can change the port in the app.js file if needed.
+## bash
+### npm start
+### The server will start running on port 3000 by default. You can change the port in the app.js file if needed.
 
 
 
-📝 Usage:
+##  📝 Usage:
 Send a GET request to /product endpoint with a query parameter url containing the Flipkart product URL you want to scrape.
 
 bash
